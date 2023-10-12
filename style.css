@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 45px;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  box-shadow: #696969;
+}
+.header-1 .section-3 {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.header-1 .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
+.navbar ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: #696969;
+}
+.navbar ul li img {
+  width: 20px;
+  height: 20px;
+}
+.header-1 .nav-btn button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: white;
+  margin-right: 20px;
+  cursor: pointer;
+
+  color: #696969;
+}
+.header-1 .nav-btn span button {
+  background-color: #00ffff;
+  padding: 10px;
+}
+/* main section design */
+
+.main-section {
+  text-align: center;
+  margin: 50px;
+}
+.main-section .header-section {
+  margin: 20px;
+  color: darkslateblue;
+  font-size: 30px;
+}
+.main-section .paragraph {
+  line-height: 1.5;
+  color: #696969;
+  font-size: 20px;
+}
+.btn {
+  text-align: center;
+  margin: 50px;
+}
+.btn button {
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #00ffff;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+.btn h3 {
+  margin: 20px;
+  font-size: 15px;
+  color: aqua;
+  font-weight: bold;
+}
